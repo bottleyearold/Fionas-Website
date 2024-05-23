@@ -34,8 +34,9 @@ body{
 }
 
 .fiona-photo{
-    height: 550px;
-    width: 550px;
+    height: 570px;
+    width: 570px;
+    margin-left: 120px;
 }
 
 .Title{
