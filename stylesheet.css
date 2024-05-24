@@ -731,6 +731,52 @@ body{
 
     }
 
-
 }
+@media screen and (max-width: 492px) {
+    .Title-Photo {
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: auto auto;
+        padding: 50px;
+        padding-bottom: 80px;
+    }
+    .Project-Div{
+        background-color: #FC819E;
+        height: 310px;
+        text-align: center;
+        width: 300px;
+        border-radius: 2%;
+        margin-bottom: 20px;;
+    }
+    .Contact-info-grid{
+        display:grid;
+        grid-template-rows: auto auto auto auto;;
+        align-items: left; 
+        width: 100px;
+        padding-left: 0px;
+        
+    }
+    .labels{
+        color: #F7418F;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+    }
+    .mesasge-labels{
+        color: #F7418F;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        padding-bottom: 8px;
+    }
+    .fileds{
+        border: 2px solid #FC819E;
+        border-radius: 5px;
+        height: 30px;
+        font-size: 11px;
+        outline: none;
+    }
+    .Title-Paragraph{
+        margin-left: 0px;;
+    }
+}
+
 
