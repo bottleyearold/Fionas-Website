@@ -558,6 +558,53 @@ body{
         
     }
 }
+@media screen and (max-width: 800px) {
+    .Project-Div{
+        background-color: #FC819E;
+        height: 420px;
+        text-align: center;
+        width: 200px;
+        border-radius: 2%;
+    }
+    .Project-photos{
+        height: 100px;
+        width: 150px;
+        padding: 5px;
+        margin-top: 10px;
+        background-color: #FAC3AF;
+        border-radius: 2%;
+    
+    }
+    .Paragraph-Project{
+        text-align: left;
+        padding-left: 10px;
+        font-size: 10px;
+        color: #FFF3C7;
+        font-family: "Poppins", sans-serif;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .Header2-Project{
+        text-align: left;
+        font-size:15px;
+        font-family: "Poppins", sans-serif;
+        padding-left: 20px;
+        color: #FFF3C7;
+        padding-top: 10px;
+    }
+    .buttons{
+        text-align: left;
+        padding-left: 10px;
+    }
+    .btn-primary{
+        background-color: #F7418F;
+        color: #FAC3AF;
+        border-color: #FAC3AF;
+        font-size: 8px;
+
+    }
+}
+
 
 @media screen and (max-width: 700px) {
     .fiona-photo{
@@ -616,7 +663,7 @@ body{
     }
     .Project-Div{
         background-color: #FC819E;
-        height: 300px;
+        height: 270px;
         text-align: center;
         width: 400px;
         border-radius: 2%;
@@ -672,5 +719,18 @@ body{
         padding-left: 40px;
         margin-right:40px;
     }
+    .buttons{
+        text-align: left;
+        padding-left: 20px;
+    }
+    .btn-primary{
+        background-color: #F7418F;
+        color: #FAC3AF;
+        border-color: #FAC3AF;
+        font-size: 10px;
+
+    }
+
 
 }
+
