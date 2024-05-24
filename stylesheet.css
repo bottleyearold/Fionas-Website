@@ -750,8 +750,8 @@ body{
     }
     .Contact-info-grid{
         display:grid;
-        grid-template-rows: auto auto auto auto;;
-        align-items: left; 
+        grid-template-rows: auto auto auto auto;
+        justify-content: left; 
         width: 100px;
         padding-left: 0px;
         
