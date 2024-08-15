@@ -48,7 +48,24 @@ body{
     color: #F7418F;
     font-family: "Playfair Display", serif;
     padding-bottom:40px;
+    animation: floatIn 4s ease-out forwards;
 }
+
+@keyframes floatIn {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-20px);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 .Title-Description{
     font-family: "Inter", sans-serif;
     color: #F7418F;
